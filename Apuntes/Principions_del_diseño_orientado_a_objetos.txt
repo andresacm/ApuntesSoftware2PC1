@@ -1,0 +1,66 @@
+__BAJO ACOPLAMIENTO_
+
+    * Se debe de tener el menor grado de dependencia
+    * Asignar una sola responsabilidad para que el acoplamiento sea bajo
+
+__ALTA COHESIÓN__
+
+    * Los elementos de una clase deben estar interrelacionados entre si.
+    * Asignar una sola responsabilidad para que la cohesión se mantenga Alta.
+
+__LEY DE DEMETER__
+
+    * Reducir el acoplamiento de nuestras clases
+    * No hables con clases que no tengas conexión directa
+    * Evitar el objetoA.metodoDeA().metodoDeB().metodoDeC();
+
+__DRY_
+
+    * No te repitas. Se tiene que evitar la duplicidad, se puede solucionar
+      creando clases de atributos que se repitan en diferentes clases.
+
+__DUCK TYPING__
+
+    * Rompe la teoria de clases abstractas y polimorfismo
+    * Define objetos por lo que hacen (sus metodos) más que por lo que son
+      (de quien heredan)
+
+__KISS (Keep It Simple, Stupid)__
+
+    * Mantener sencillo el codigo simple
+    * Si tienes algo que funciona, no lo toques, no tienes que complicarlo
+
+__YAGNI (You Aren't Gonna Need It)__
+
+    * Solo concentrate en aquello que realmente lo vas a necesitar
+    * No hagas lo que todavia no vas a utilizar
+
+__SOLID__
+
+    __Single Responsability (Resposabilidad Unica)__
+        
+        Cuando una clase hace mas de lo que deberia hacer. Que realice 2+ acciones
+        Por ejemplo, un metodo que calcule un area y a la vez imprima en pantalla
+
+    __Open/Closed (Abierto/Cerrado)__
+
+        * Abierto a extensión: Tienes que ser capaz de añadir nuevas funcionalidades
+        * Cerrado a modificación: Para añadir la nueva funcionalidad no tienes que
+          cambiar codigo que ya está escrito
+
+    __Liskov Substitution (sustitución de Liskov)__
+
+        Si tienes un programa que funciona con la clase padre, deberia funcionar
+        con la clase hija tambien. No pueden haber atributos o metodos de la
+        clase padre que no puedan utilizar en la clase hija.
+
+    __Interface Segregation__
+
+        Es mejor tener clases pequeñas y especializadas, que una clase enorme que
+        contenga muchos metodos.
+        
+    __Dependency Inversion (Inversión de dependencia)__
+
+        * Clases de alto nivel no deben de depender de las clases de bajo nivel, sino
+          que deben de depender de las abstracciones.
+

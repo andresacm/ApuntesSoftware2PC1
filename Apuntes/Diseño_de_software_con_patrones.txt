@@ -1,0 +1,9 @@
+__SINGLETON__
+
+    * Hace refencia que al aplicar este patron de diseño solo se crea
+      una sola instancia
+
+__FACTORY METHOD__
+
+    * Define una interfaz para crear un objeto pero deja que las subclases
+      decidan que clase instanciar
